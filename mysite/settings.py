@@ -25,7 +25,7 @@ SECRET_KEY = 'cg(hpcp9480f^dr7$12v=0(^2mpr)c(s7x7e2&7x-rern170^r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
