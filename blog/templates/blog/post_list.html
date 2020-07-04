@@ -1,11 +1,13 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>huijin blog</title>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="{% static'css/blog.css' %}">
+        <title>Django Girls blog</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 </head>
  <body>
     <header>
@@ -22,9 +24,8 @@
         </div>
     </nav>
     -->
-<div class="content container">
-    <div class="row">
-        <div class="col-md-8">
+    {% extends 'blog/base.html' %}
+    {% block content %}
             {% for post in posts %}
                 <div class="post">
                     <div class="date">
@@ -34,8 +35,7 @@
                     <p>{{ post.text|linebreaksbr }}</p>
                 </div>
             {% endfor %}
-        </div>
-    </div>
-</div>
+    {% endblock %}
+
     </body>
 </html>
