@@ -1,0 +1,12 @@
+li{font-size: 20pt;
+}
+
+ h1{font-size: 20pt;
+    text-decoration: none;
+ }
+ .page-body h1{font-size: 20pt;
+ }
+
+body {color: gray; border-color: darkgray; width: 850px; height: 40px;  text-align: center; color: black; padding: 10px 0px 20px 580px;}
+			body li {display: inline; padding: 5px;}
+			body a {text-decoration: none; color: black; padding: 8px; border-style: hidden hidden solid hidden;
