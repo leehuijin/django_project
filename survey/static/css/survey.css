@@ -1,12 +1,51 @@
-li{font-size: 20pt;
+.page-header {
+    background-color: #DCEBFF;
+    margin-top: 0px;
+    margin-right:500px;
+    margin-bottom:0px;
+    margin-left:300px;
+    width: 850px;
+    padding: 20px;
+    text-align: center;
+    }
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+
+    font-size: 30pt;
+    text-decoration: none;
+    text-align: center;
 }
 
- h1{font-size: 20pt;
-    text-decoration: none;
- }
- .page-body h1{font-size: 20pt;
- }
+nav a:hover {color: gray; border-color: darkgray;}
+			nav {width: 850px; height: 40px;  text-align: center; color: black; padding: 10px 0px 20px 580px;}
+			nav li {display: inline; padding: 5px;}
+			nav a {text-decoration: none; color: black; padding: 8px; border-style: hidden hidden solid hidden;}
 
-body {color: gray; border-color: darkgray; width: 850px; height: 40px;  text-align: center; color: black; padding: 10px 0px 20px 580px;}
-			body li {display: inline; padding: 5px;}
-			body a {text-decoration: none; color: black; padding: 8px; border-style: hidden hidden solid hidden;
+.question {
+    margin-top: 0px;
+    margin-right:500px;
+    margin-bottom:20px;
+    margin-left:300px;
+    width: 850px;
+    padding: 50px;
+    text-align: center;
+}
+
+.question2{
+    margin-top: 0px;
+    margin-right:500px;
+    margin-bottom:20px;
+    margin-left:300px;
+    width: 850px;
+    padding: 50px;
+    text-align: center;
+}
+
+.question3{
+    margin-top: 0px;
+    margin-right:500px;
+    margin-bottom:20px;
+    margin-left:300px;
+    width: 850px;
+    padding: 50px;
+    text-align: center;
+}

@@ -6,4 +6,5 @@ urlpatterns = [
     path('', include('blog.urls')),
     path('admin/', admin.site.urls),
     path('survey/', include('survey.urls')),
+
 ]

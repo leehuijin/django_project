@@ -42,16 +42,17 @@
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
+    font-size: 30pt;
     margin-right: 20px;
 }
 
 .post {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .post h1 a, .post h1 a:visited {
     color: #000000;
+     background-color: #DCEBFF;
 }
 
 nav a:hover {color: gray; border-color: darkgray;}

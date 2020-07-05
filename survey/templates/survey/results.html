@@ -1,10 +1,25 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>huijin blog</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/survey.css' %}">
 </head>
 <body>
+<div class="page-header">
+            <h1><a href="/">희진이의 과목 정리 블로그</a></h1>
+        </div>
+        <nav>
+        <div>
+            <li><a href="/">과목</a></li>
+            <li><a href="survey/">어려운 과목 조사</a></li>
+
+        </div>
+        </nav>
+<div class="question3">
 <h1>{{question.question_text}}</h1>
 
 <ul>
@@ -14,6 +29,6 @@
 </ul>
 
 <a href="{% url 'survey:detail' question.id%}">다시 투표하기</a>
-
+</div>
 </body>
 </html>
